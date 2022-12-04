@@ -1,0 +1,159 @@
+/*
+Theme Name: ThemeReza
+Author: Sheikh Abu Reza
+Version: 1.0
+Description: This is for training purpose
+Tags: DPI, IIST, web Development, Web Design
+Text Domain: themereza
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./assets/images/bg_main.gif) center;
+}
+.cont{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* common css end */
+/* header part start */
+.topbar{
+    background: #9E5BBB;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(252, 4, 4);
+}
+.top_right p{
+    /* display: inline-block; */
+    border-right: 1px solid whitesmoke;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.top_right a{
+    color: #fff;
+    text-decoration: none;
+}
+/* header part end */
+/* logo part start */
+
+.logo{
+    height: 110px;
+    
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 65%;
+    padding: 5px;
+    font-size: 12px;
+}
+button{
+    font-size: 8px;
+    padding: 5px 6px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+.logo1{
+    border-right: 1px solid rgb(237, 214, 214);
+    padding-right: 5px;
+}
+.logo2{
+    padding-left: 5px;
+}
+
+/* logo part end */
+/* Hero Main Part start */
+.banner{
+    border: 2px solid red;
+    padding: 10px;
+}
+.slider img{
+    height: 300px;
+    padding: 10px;
+}
+.tab_1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.notice ul{
+    list-style: none;
+    width: 60%;
+    margin-top: 20px;
+}
+.notice{
+    margin: 20px;
+}
+.notice h4{
+    font-size: medium;
+    color: purple;
+}
+.notice ul li a{
+    text-decoration: none;
+    border-bottom: 1px solid greenyellow;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+.notice ul li a:hover{
+    color: green;
+}
+.notice ul li{
+    margin-top: 5px;
+}
+.btn a{
+text-decoration: none;
+
+}
+.btn{
+    background: #ddd;
+}
+form select{
+    width: 75%;
+    padding: 5px;
+}
+.side_video h5{
+    background-color: darkgreen;
+    color: #fff;
+    padding: 5px;
+}
+.fb_left ul li a{
+    font-size: 12px;
+}
+.fb_left p{
+    font-size: 10px;
+    padding-left: 17px;
+}
+.fb_right p{
+    font-size: 10px;
+    padding-top: 3px;
+}
+/* Hero Main Part end */
+.menu_top li{
+    padding-right: 20px;
+}
+.menu_top li a{
+    text-decoration: none;
+}
+.menu_top li a:hover{
+    background-color: chartreuse;
+    padding: 5px;
+}
+.s_img img{
+    height: 30px;
+}
