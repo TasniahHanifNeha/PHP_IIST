@@ -19,6 +19,37 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin: 0;
     box-sizing: border-box;
 }
+.logo{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.slider{
+    position: absolute;
+}
+.menu-1{
+    margin-top: 295px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}
+.menu-1 li a{
+    text-decoration: none;
+    padding: 15px 10px;
+    font-size: 22px;
+    color: red;
+}
+.menu-1 li a:hover{
+    background: #102b0e;
+    color: rgb(228, 232, 235);
+}
 
+.hero-top span{
+    color: red;
+}
+.hero-top{
 
-
+}
+.hbimg1 img{
+    margin-top: -50px;
+}

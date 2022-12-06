@@ -8,9 +8,39 @@ add_theme_support( 'custom-logo' );
 add_theme_support( 'post-thumbnails' );
 
 
+register_sidebar( array(
+    'name'=>'Top Right Logo',
+    'id'=>'bdlogo',
+    'before_widget'  => '',
+	'after_widget'   => " ",
+) );
 
+register_sidebar( array(
+    'name'=>'Hero Top',
+    'id'=>'herotop',
+    'before_widget'  => '',
+	'after_widget'   => " ",
+) );
 
+register_sidebar( array(
+    'name'=>'Hero Bottom Image',
+    'id'=>'herobottom',
+    'before_widget'  => '<div id="%1$s" class="widget %2$s hbimg1',
+	'after_widget'   => "</div>\n",
+) );
 
+register_sidebar( array(
+    'name'=>'Hero Body',
+    'id'=>'herobody',
+    'before_widget'  => '',
+	'after_widget'   => "",
+) );
+
+register_nav_menus(
+    array(
+        'TM' => 'Primary',
+    )
+);
 
 
 
